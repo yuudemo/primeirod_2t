@@ -3,25 +3,41 @@ body {
 }
 h1 {
   text-align: center;
-
 }
 .caixa1 {
-  position: absolute;
-  background: #930069;
-  color: #FFFFFF;
-  width:200px;
-  height: 200px;
-  right:0px;
-  top:0;
+    position: absolute;
+    background: #4a3583;
+    color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: 0;
 }
 
- .caixa2 {
-   position: absolute;
-   background: #99FF99;
-   color: #black;
-   width:200px;
-   height: 200px;
-   right: 0;
-   bottom: 0;
+.caixa2 {
+    position: absolute;
+    background: rgb(118, 51, 150);
+    color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    right: 205px;
+    bottom: 0;
+}
 
- }
+.caixa3 {
+    position: absolute;
+    background: rgb(57, 7, 138);
+    color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: 205px;
+}
+.menuPrincipal {
+   position: relative;
+   background: rgb(32, 25, 21);
+   width: 100%;
+   height: 120px;
+   top: 0;
+   color: rgb(255, 255, 255);
+}
